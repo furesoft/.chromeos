@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/filmee24/Projekte/Dotnet/Silverfly/Source/Sample'
+let g:netrw_dirhist_1='/home/filmee24/Projekte/Dotnet/Silverfly/Source'
+let g:netrw_dirhist_0='/home/filmee24/Projekte/Dotnet/Silverfly/Source/Sample'
+let g:netrw_dirhist_9='/home/filmee24/Projekte/Dotnet/Silverfly/Source'
+let g:netrw_dirhist_8='/home/filmee24/Projekte/Dotnet/Silverfly/Source/Sample'
+let g:netrw_dirhist_7='/home/filmee24/Projekte/Dotnet/Silverfly/Source'
+let g:netrw_dirhist_6='/home/filmee24/Projekte/Dotnet/Silverfly/Source/Sample'
+let g:netrw_dirhist_5='/home/filmee24/Projekte/Dotnet/Silverfly/Source'
+let g:netrw_dirhist_4='/home/filmee24/Projekte/Dotnet/Silverfly/Source/Sample'
+let g:netrw_dirhist_3='/home/filmee24/Projekte/Dotnet/Silverfly/Source'
