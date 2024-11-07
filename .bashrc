@@ -133,3 +133,11 @@ parse_git_branch() {
 export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 source /usr/share/bash-completion/completions/git
+
+_nuke_bash_complete()
+{
+    local word=${COMP_WORDS[COMP_CWORD]}
+    local completions="$(nuke :complete "${COMP_LINE}")"
+    COMPREPLY=( $(compgen -W "$completions" -- "$word") )
+}
+complete -f -F _nuke_bash_complete nuke
